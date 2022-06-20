@@ -34,6 +34,6 @@ furityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 
 streamlit.dataframe(furityvice_normalized)
 
-import snowflake.connector
+import snowflake.connector 
 
 
